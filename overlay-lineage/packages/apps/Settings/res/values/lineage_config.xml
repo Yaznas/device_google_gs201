@@ -17,4 +17,7 @@
 <resources>
     <!-- Show battery cycle count -->
     <bool name="config_show_battery_cycle_count" translatable="false">true</bool>
+
+    <!-- Turn on Wi-Fi automatically -->
+    <bool name="config_wifi_wakeup" translatable="false">true</bool>
 </resources>
