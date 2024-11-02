@@ -41,4 +41,7 @@ PRODUCT_PACKAGES += \
 # Touch
 include hardware/google/pixel/touch/device.mk
 
+# Pixel Camera
+$(call inherit-product-if-exists, vendor/google/camera/config.mk)
+
 DERPFEST_BUILD_TYPE := Official
