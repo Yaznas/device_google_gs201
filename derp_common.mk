@@ -36,3 +36,20 @@ PRODUCT_PACKAGES += \
 
 # Touch
 include hardware/google/pixel/touch/device.mk
+
+# Pixel Camera
+PRODUCT_PACKAGES += \
+    GoogleCamera
+
+# Remove Packages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
+# Viper4Android
+include packages/apps/ViPER4AndroidFX/config.mk
+
+# Quick Tap
+TARGET_SUPPORTS_QUICK_TAP := true
+
+# Udfps Icons
+EXTRA_UDFPS_ICONS := true
