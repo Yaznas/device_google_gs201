@@ -11,11 +11,8 @@ LOCAL_OVERRIDES_PACKAGES += \
     Drive \
     Gmail2 \
     Maps \
-    Photos \
     YouTube \
-    talkback \
     FilesGoogle \
-    PersonalSafety \
     Accord \
     FossifyGallery
 
