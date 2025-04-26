@@ -42,3 +42,7 @@ $(call inherit-product-if-exists, vendor/google/camera/config.mk)
 
 # ViPER4AndroidFX
 $(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
+
+# Remove Packages
+PRODUCT_PACKAGES += \
+  RemovePackages
