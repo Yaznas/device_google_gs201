@@ -39,3 +39,6 @@ include hardware/google/pixel/touch/device.mk
 
 # Pixel Camera
 $(call inherit-product-if-exists, vendor/google/camera/config.mk)
+
+# ViPER4AndroidFX
+$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
