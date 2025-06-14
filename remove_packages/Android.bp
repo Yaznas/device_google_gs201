@@ -6,11 +6,11 @@ android_app_import {
 
      overrides: [
          "Accord",
-         "CalculatorGoogle",
          "CalendarGoogle",
          "Chrome64",
          "Drive",
          "FilesGoogle",
+         "Gemini",
          "Gmail2",
          "Maps",
          "YouTube",
